@@ -4,6 +4,7 @@ import img1 from "../../public/1.jpg";
 import img2 from "../../public/2.jpg";
 import img3 from "../../public/3.jpg";
 import img4 from "../../public/4.jpg";
+import mydp from "../../public/mydp.jpeg";
 function Project() {
   return (
     <>
@@ -51,7 +52,7 @@ function Project() {
               Testimonials
             </h1>
             <img
-              src="./public/mydp.jpeg"
+               src={mydp}
               className="rounded-full w-32 h-32 border border-white mt-10 mb-4 "
               alt="testimonial-image"
             />
