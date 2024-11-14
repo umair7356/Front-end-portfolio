@@ -1,6 +1,9 @@
 import React from "react";
 import bg from "../../public/testiomnials-background.jpg";
-
+import img1 from "../../public/1.jpg";
+import img2 from "../../public/2.jpg";
+import img3 from "../../public/3.jpg";
+import img4 from "../../public/4.jpg";
 function Project() {
   return (
     <>
@@ -16,22 +19,22 @@ function Project() {
           <img
             className="w-full sm:w-full md:w-full lg:w-1/4 object-cover hover:transition-opacity hover:opacity-90"
             alt="project-image"
-            src="./public/1.jpg"
+            src={img1}
           />
           <img
             className="w-full sm:w-full md:w-full lg:w-1/4 object-cover hover:transition-opacity hover:opacity-90"
             alt="project-image"
-            src="./public/2.jpg"
+            src={img2}
           />
           <img
             className="w-full sm:w-full md:w-full lg:w-1/4 object-cover hover:transition-opacity hover:opacity-90"
             alt="project-image"
-            src="./public/3.jpg"
+           src={img3}
           />
           <img
             className="w-full sm:w-full md:w-full lg:w-1/4 object-cover hover:transition-opacity hover:opacity-90"
             alt="project-image"
-            src="./public/4.jpg"
+            src={img4}
           />
         </div>
       </div>
