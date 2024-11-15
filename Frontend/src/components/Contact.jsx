@@ -61,9 +61,10 @@ function Contact() {
         </div>
         <div className="lg:px-20 px-4 mt-8 ">
           <h1 className="text-[#8c9597]">Subject</h1>
-          <input
+          <textarea
             type="text"
-            className="border rounded-sm w-full  h-44 border-[#8c9597]"
+            placeholder="write subject here"
+            className="border rounded-sm w-full px-1 py-1 h-44 border-[#8c9597]"
           />
           <div className="flex justify-end mt-5 ">
             <button className="h-12 w-44 bg-yellow-400 border rounded-md text-white font-semibold text-lg">
