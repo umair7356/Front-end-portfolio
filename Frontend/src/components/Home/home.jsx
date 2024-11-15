@@ -11,7 +11,7 @@ import BottomNav from '../BottomNav.jsx';
 function home() {
   return (
     <>
-     <div>
+     <div className="px-5">
         <Navbar/>
         <Banner/>
         <About/>
